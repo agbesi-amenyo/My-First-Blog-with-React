@@ -78,3 +78,37 @@ button:hover {
   border-radius: .5rem;
   cursor: pointer;
 }
+
+/* Create new blog form */
+.create{
+  max-width: 25rem;
+  margin: 0 auto ;
+  text-align: center;
+}
+.create label {
+  text-align: left;
+  display: block;
+}
+.create h2 {
+  font-size: 1.25rem;
+  color: #f1356d;
+  margin-bottom: 1.875rem;
+}
+.create input, .create textarea, .create select{
+  width: 100%;
+  padding: .375rem .625rem;
+  margin: .625rem 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block ;
+}
+.create button{
+  background-color: #f1356d;
+  color: #fff;
+  border: 0;
+  padding: .5rem;
+  border-radius: .5rem;
+  cursor: pointer;
+}
+
+
