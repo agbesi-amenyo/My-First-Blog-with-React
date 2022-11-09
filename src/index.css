@@ -46,11 +46,35 @@
 }
 
 .blog-preview h2 {
-  font-size: 20px;
+  font-size: 1.25rem;
   color: #f1356d;
-  margin-bottom: 8px;
+  margin-bottom: .5rem;
 }
 button:hover {
   color : red; 
 }
+.blog-preview a { 
+  text-decoration: none;
+}
 
+/* blog details page  */
+
+.blog-details h2 {
+  font-size: 1.25rem ;
+  color :#f1356d ;
+  margin-bottom: .625rem;
+
+}
+
+.blog-details div {
+  margin : 1.25rem 0 ; 
+}
+
+.blog-details button {
+  background: #f1356d;
+  color: #fff;
+  border: 0;
+  padding: .5rem;
+  border-radius: .5rem;
+  cursor: pointer;
+}
